@@ -13,6 +13,8 @@
 		268AC01D24C9C5C800F3836A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268AC01C24C9C5C800F3836A /* Assets.xcassets */; };
 		268AC02024C9C5C800F3836A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268AC01F24C9C5C800F3836A /* Preview Assets.xcassets */; };
 		268AC02324C9C5C800F3836A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268AC02124C9C5C800F3836A /* LaunchScreen.storyboard */; };
+		268AC02E24C9CE4800F3836A /* AngillaTattoo_PERSONAL_USE_ONLY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268AC02D24C9CE4800F3836A /* AngillaTattoo_PERSONAL_USE_ONLY.ttf */; };
+		268AC03024C9D0CF00F3836A /* Admiration Pains.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268AC02F24C9D0CF00F3836A /* Admiration Pains.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		268AC01F24C9C5C800F3836A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		268AC02224C9C5C800F3836A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		268AC02424C9C5C800F3836A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268AC02D24C9CE4800F3836A /* AngillaTattoo_PERSONAL_USE_ONLY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AngillaTattoo_PERSONAL_USE_ONLY.ttf; sourceTree = "<group>"; };
+		268AC02F24C9D0CF00F3836A /* Admiration Pains.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Admiration Pains.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		268AC01524C9C5C500F3836A /* AppOne */ = {
 			isa = PBXGroup;
 			children = (
+				268AC02A24C9CD8000F3836A /* Fonts */,
 				268AC01624C9C5C500F3836A /* AppDelegate.swift */,
 				268AC01824C9C5C500F3836A /* SceneDelegate.swift */,
 				268AC01A24C9C5C500F3836A /* ContentView.swift */,
@@ -73,6 +78,15 @@
 				268AC01F24C9C5C800F3836A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		268AC02A24C9CD8000F3836A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				268AC02F24C9D0CF00F3836A /* Admiration Pains.ttf */,
+				268AC02D24C9CE4800F3836A /* AngillaTattoo_PERSONAL_USE_ONLY.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +147,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268AC03024C9D0CF00F3836A /* Admiration Pains.ttf in Resources */,
 				268AC02324C9C5C800F3836A /* LaunchScreen.storyboard in Resources */,
 				268AC02024C9C5C800F3836A /* Preview Assets.xcassets in Resources */,
+				268AC02E24C9CE4800F3836A /* AngillaTattoo_PERSONAL_USE_ONLY.ttf in Resources */,
 				268AC01D24C9C5C800F3836A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
